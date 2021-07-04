@@ -1,0 +1,2 @@
+turtlesim_halbeisen
+-DCATKIN_DEVEL_PREFIX=/home/chalbeisen/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/chalbeisen/catkin_ws/install -G Unix Makefiles
