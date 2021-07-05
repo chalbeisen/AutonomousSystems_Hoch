@@ -1,3 +1,0 @@
-control_node_name: "turtlesim_control"
-logger_node_name: "turtlesim_logger"
-statusMonitor_node_name: "turtlesim_statusMonitor"
