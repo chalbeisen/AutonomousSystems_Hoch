@@ -1,3 +1,0 @@
-<launch>
-    <node pkg="turtlesim_halbeisen" type="turtlesim_control.py" name="turtlesim_control"/>
-</launch>
