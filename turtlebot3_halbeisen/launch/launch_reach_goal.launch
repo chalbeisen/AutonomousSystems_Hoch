@@ -1,0 +1,4 @@
+<launch>
+	<?ignore start wall_follower.py ?>
+    <node pkg="turtlebot3_halbeisen" name="reach_goal" type="reach_goal.py" output="screen"/>
+</launch>

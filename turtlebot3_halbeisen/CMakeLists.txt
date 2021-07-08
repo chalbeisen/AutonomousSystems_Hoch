@@ -164,6 +164,7 @@ include_directories(
  catkin_install_python(PROGRAMS
    src/wall_follower.py
    src/wall_follower2.py
+   src/reach_goal.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 
