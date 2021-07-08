@@ -1,0 +1,4 @@
+<launch>
+	<?ignore start wall_follower2.py ?>
+    <node pkg="turtlebot3_halbeisen" name="wall_follower2" type="wall_follower2.py" output="screen"/>
+</launch>
