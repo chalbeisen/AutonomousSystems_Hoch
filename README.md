@@ -55,6 +55,8 @@ Sets all parameters used for exercise 1.
 ### launch_turtlesim.launch
 Start a turtlesim-node, the controller moving the turtlebot, the aggregator and the logger.
 
+## Folder textfiles
+Contains txt file from logger with aggregated roboter status
 
 # turtlebot3_halbeisen
 
