@@ -17,7 +17,7 @@ Service client which allows to specify the frequency of the data to be recorded.
 Service client which allows disabling of the controller.
 
 ### turtlesim_statusMonitor.py
-node that collects the current state of the turtlesim robot. It publishes a custom message type that encapsulates the overall state of the turtlebot robot 
+node that collects the current state of the turtlesim robot. It publishes a custom message type that encapsulates the overall state of the turtlebot robot. 
 
 ## Folder msg
 
