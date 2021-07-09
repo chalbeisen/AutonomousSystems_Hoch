@@ -104,4 +104,7 @@ if __name__ == '__main__':
     rospy.init_node('reach_goal')
     reachgoal = ReachGoal()
     print('reach nearest obstacle started')
-    rospy.spin()
+    try:
+        rospy.spin()
+    except KeyboardInterrupt:
+        print("Shutting down")

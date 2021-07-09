@@ -14,7 +14,10 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   turtlesim
   message_generation
+  cv_bridge
+  rospy
 )
+find_package(OpenCV REQUIRED)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -165,6 +168,9 @@ include_directories(
    src/wall_follower.py
    src/wall_follower2.py
    src/reach_goal.py
+   src/visualize_camera.py
+   src/tcp_client.py
+   src/tcp_server.py
    DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
  )
 

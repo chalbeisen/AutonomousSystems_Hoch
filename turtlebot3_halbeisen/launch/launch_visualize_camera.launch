@@ -1,0 +1,4 @@
+<launch>
+	<?ignore start wall_follower.py ?>
+    <node pkg="turtlebot3_halbeisen" name="visualize_camera" type="visualize_camera.py" output="screen"/>
+</launch>
